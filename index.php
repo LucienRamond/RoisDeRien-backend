@@ -4,7 +4,7 @@
     $resend = Resend::client('re_aENNUXZm_NfLkdeQVRWZ65Q4d3eVGUfhf');
 
     $resend->emails->send([
-    'from' => 'Acme <michel@gmail.com>',
+    'from' => 'Acme <onboarding@resend.dev>',
     'to' => ['delivered@resend.dev'],
     'subject' => 'hello world',
     'html' => '<strong>it works!</strong>',
