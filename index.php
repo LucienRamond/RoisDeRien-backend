@@ -5,7 +5,7 @@
 
     $resend->emails->send([
     'from' => 'Acme <onboarding@resend.dev>',
-    'to' => ['lucien_ramond@hotmail.com'],
+    'to' => ['postmaster@roisderien.fr'],
     'subject' => 'hello world',
     'html' => '<strong>it works!</strong>',
     ]);
