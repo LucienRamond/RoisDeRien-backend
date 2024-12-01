@@ -3,11 +3,11 @@
 
     $resend = Resend::client('re_aENNUXZm_NfLkdeQVRWZ65Q4d3eVGUfhf');
 
-    $resend->emails->send([
-    'from' => 'Acme <contact@roisderien.fr>',
-    'to' => ['contact@roisderien.fr'],
-    'subject' => 'hello world',
-    'html' => '<strong>it works!</strong>',
-    ]);
+    // $resend->emails->send([
+    // 'from' => 'Acme <contact@roisderien.fr>',
+    // 'to' => ['contact@roisderien.fr'],
+    // 'subject' => 'hello world',
+    // 'html' => '<strong>it works!</strong>',
+    // ]);
 
 ?>
