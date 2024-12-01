@@ -5,7 +5,7 @@
 
     $resend->emails->send([
     'from' => 'Acme <contact@roisderien.fr>',
-    'to' => ['lucien_ramond@hotmail.com'],
+    'to' => ['contact@roisderien.fr'],
     'subject' => 'hello world',
     'html' => '<strong>it works!</strong>',
     ]);
