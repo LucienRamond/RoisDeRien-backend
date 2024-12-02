@@ -1,4 +1,5 @@
 <?php
+    header("Access-Control-Allow-Origin: https://roisderien.fr/contact");
 
     require __DIR__ . '/vendor/autoload.php';
 
