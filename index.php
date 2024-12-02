@@ -1,5 +1,6 @@
 <?php
     header("Access-Control-Allow-Origin: https://roisderien.fr");
+    header('Content-Type: application/json');
 
     require __DIR__ . '/vendor/autoload.php';
 
@@ -16,9 +17,9 @@
         'subject' => 'Nouvelle prise de contact !',
         'html' => $message,
     ]);
-        echo 'ok';
+        echo json_encode(array('response' => 'ok'));
     }else{
-        echo 'Invalid send';
+        echo json_encode(array('response' => 'Invalid request'));
     }
 
 ?>
