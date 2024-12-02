@@ -1,4 +1,6 @@
 <?php
+    header("Access-Control-Allow-Origin: https://roisderien.fr/contact");
+
     require __DIR__ . '/vendor/autoload.php';
 
     if($_SERVER['REQUEST_METHOD'] = 'GET' && $_GET['email'] && $_GET["message"])
